@@ -1,0 +1,10 @@
+{
+  "//": "Build ESM — lo consume Vite/el navegador. Sin .d.ts (los tipos salen del build CJS).",
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "ES2022",
+    "moduleResolution": "bundler",
+    "outDir": "dist/esm",
+    "declaration": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "//": "Base compartida. Los builds concretos están en tsconfig.cjs.json y tsconfig.esm.json.",
+  "compilerOptions": {
+    "target": "ES2022",
+    "moduleResolution": "bundler",
+    "module": "ESNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "rootDir": "src"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}

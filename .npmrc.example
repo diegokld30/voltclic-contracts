@@ -1,0 +1,4 @@
+# Publicar/consumir @voltclic/* desde GitHub Packages.
+# Copia a .npmrc y define GITHUB_TOKEN (con scope read:packages para consumir, write:packages para publicar).
+@voltclic:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}

@@ -1,0 +1,10 @@
+{
+  "//": "Build CommonJS — lo consume el backend NestJS. Emite además los .d.ts del paquete.",
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "dist/cjs",
+    "declaration": true
+  }
+}
