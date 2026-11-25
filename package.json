@@ -14,7 +14,9 @@
       "require": "./dist/cjs/index.js"
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "sideEffects": false,
   "scripts": {
     "build": "rm -rf dist && tsc -p tsconfig.cjs.json && tsc -p tsconfig.esm.json && node scripts/finalize-dual-build.mjs",
@@ -28,7 +30,7 @@
   "devDependencies": {
     "typescript": "^5.7.3"
   },
-  "packageManager": "pnpm@11.13.0",
+  "packageManager": "pnpm@11.29.0",
   "engines": {
     "node": ">=20"
   }
